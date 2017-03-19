@@ -4,7 +4,7 @@ const packageJson = require("./package.json");
 
 program
     .version(packageJson.version)
-    .command("action <name>")
+    .command("asyncaction <name>")
     .action(name => {
         let reduxAction = "Action";
         let reduxDispatch = "Dispatch<ApplicationState>";
