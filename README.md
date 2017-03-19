@@ -2,6 +2,6 @@
 A simple Node.js script to generate Redux boilerplate code
 
 ## Usage
-```
-node index.js action LOAD_USERS
-```
+Install dependencies using npm `npm install` or yarn `yarn`
+
+Create async action boilerplate code `node index.js asyncaction LOAD_USERS`.
