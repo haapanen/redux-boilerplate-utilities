@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "postinstall": "node ./node_modules/typescript/bin/tsc"
+  },
   "dependencies": {
     "@types/commander": "^2.3.31",
     "@types/lodash": "^4.14.55",
